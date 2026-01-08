@@ -1,11 +1,11 @@
 🧠 Day 1 – Introduction to SQL & SELECT Statement
-<br>
+
 📘 Topics Covered
-<br>
+
 Topics: Basic SELECT, column selection, viewing data structure
-<br>
+
 SQL (Structured Query Language) is the standard language for managing relational databases Also called as 'SEQUEL'.
-<br>
+
 The SELECT statement is your primary tool for retrieving data.
 
 🔑 Key Concepts
@@ -15,7 +15,7 @@ FROM specifies which table to query
 Use a semicolon (;) to end SQL statements
 Syntax SELECT * col1_name
         FROM Table_name;
-<br>
+
 🧩 Practice Questions
 1.Retrieve all columns from the patients table.
 2.Select only the patient_id, name, and age columns from the patients table.
