@@ -1,0 +1,29 @@
+🧠 Day 6 – GROUP BY Clause
+GROUP BY Clause and Aggregating by Categories
+
+📘 Topics Covered
+Topics: GROUP BY, aggregating by categories
+
+The GROUP BY clause divides rows into groups based on column values, allowing you to apply aggregate functions (COUNT, SUM, AVG, etc.) to each group individually.
+It is a powerful way to summarize and categorize data in SQL.
+
+📚 Reading & Resources
+Basic Syntax:
+SELECT column1, aggregate_function(column2)
+FROM table_name
+GROUP BY column1;
+Key Rules:
+Every non-aggregated column in the SELECT clause must appear in the GROUP BY clause.
+
+Each group produces one result row.
+
+Use aggregate functions (COUNT, SUM, AVG, etc.) on other columns.
+
+You can group by multiple columns for detailed segmentation.
+
+💡 Tips & Tricks
+✅ Think “one row per group” — if you GROUP BY service, you’ll get one row per service. 
+✅ Execution order in SQL: FROM → WHERE → GROUP BY → SELECT → ORDER BY → LIMIT 
+✅ Use WHERE before GROUP BY to filter rows.
+✅ Use HAVING after GROUP BY to filter aggregated results. 
+✅ Grouping multiple columns increases granularity for deeper insights.
