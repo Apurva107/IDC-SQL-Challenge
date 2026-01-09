@@ -19,9 +19,3 @@ You can sort by multiple columns (e.g., first by department, then by age)
 
 NULL values usually appear first with ASC and last with DESC
 
-🧩 Practice Questions
-List all patients sorted by age in descending order.
-Show all services_weekly data sorted by week number ascending and patients_request descending.
-Display staff members sorted alphabetically by their names.
-🚀 Daily Challenge
-Question: Retrieve the top 5 weeks with the highest patient refusals across all services, showing week_number, service, patients_refused, and patients_requested. Sort the results by patients_refused in descending order.
