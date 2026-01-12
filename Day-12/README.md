@@ -1,4 +1,4 @@
-# Day 11: NULL Values and IS NULL / IS NOT NULL
+# Day 12: NULL Values and IS NULL / IS NOT NULL
 
 **Topics:** NULL handling, IS NULL, IS NOT NULL, COALESCE
 
