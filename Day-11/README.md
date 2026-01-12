@@ -1,4 +1,4 @@
-# Day 11 (14/11): DISTINCT and Handling Duplicates
+# Day 11 : DISTINCT and Handling Duplicates
 
 **Topics:** DISTINCT, removing duplicates, unique values
 
